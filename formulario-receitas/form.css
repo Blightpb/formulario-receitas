@@ -1,0 +1,82 @@
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-attachment: fixed;
+ }
+ label, input, select, textarea{
+     display: block ;
+     width: 95%;
+     padding: 10px;
+     margin-bottom: 25px;
+     border-radius: 9px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+  form{
+     width: 557px;
+     margin: auto;
+     padding: 70px;
+     border-radius: 10px;
+     background:#631750;
+     color: #bb3d71;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  label{
+     padding: 0;
+     margin: 0;
+     width: 100% ;
+     font-size: 18px;
+    
+  }
+  .emlinha{
+     display: inline;
+     width: 10%;
+     font-size: 16px;
+     
+  }
+  .medidas{
+     display: inline;
+     width: 25%;
+  }
+  input[type='checkbox'], input[type='radio']{
+    margin-right: 0px;
+    margin-left: 15px;
+    
+ }
+ input:focus, select:focus, textarea:focus{
+    outline: none;
+    border: solid px;
+ }
+ input{
+    color: #ac6192;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+  #enviar{
+    width: 100%;
+    border: 2px solid #bb3d71;
+    background-color: #fff;
+    color: #bb3d71;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  }
+  #enviar:hover{
+   background-color: #c3487b;
+   color: #fff;
+    transition:all linear 0.3;
+  }
+ ::placeholder {
+    color: #75697c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+ textarea{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+ option{
+    color:#75697c;
+ }
+ #tempo{
+    width: 95%;
+ }
+ .categoria{
+    width: 99%;
+ }
